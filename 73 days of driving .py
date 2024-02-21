@@ -1,0 +1,5 @@
+Destination=float(input("your destination:"))
+Speed=float(input("your speed:"))
+Hours=float(input("driving hours per day "))
+DaysDriving=Destination/(Speed*Hours)
+print("Days of driving",round(DaysDriving))
